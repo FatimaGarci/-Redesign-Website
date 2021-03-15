@@ -1,6 +1,6 @@
 .wrapper {
-    /* height: 97vh; */
-    margin-top: 3em;
+    height: 95vh;
+    margin-top: 15em;
     width: 100%;
     display: flex;
     flex-direction: column;

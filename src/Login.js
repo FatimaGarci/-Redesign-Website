@@ -1,6 +1,12 @@
 import React from 'react'
 import './Assets/Login.css'
-import { loginUrl } from './spotify'
+import { loginUrl } from './spotify';
+import Contact from './Contact';
+
+// import ReactDOM from 'react-dom';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
+
 // rfce is a es7 handy snippet that rides a functional component fully
 function Login() {
     return (
@@ -19,12 +25,15 @@ function Login() {
                 </div>
                 <div className='footer-text' >
                     <div className="copyright" >
-                        <p >&copy; 2020 Redesign Spotify | ALL RIGHTS RESERVED.</p>  
-                        <a href="Contact.js">| Contact |</a>
+                        <p >&copy; 2020 Redesign Spotify | ALL RIGHTS RESERVED.</p>
+                        <a href='#contact'>Contact</a>
                     </div>
                 </div>
             </footer>
+
+            <Contact />
         </div>
+        
     )
 }
 

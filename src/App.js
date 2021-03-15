@@ -12,7 +12,7 @@ const spotify = new SpotifyWebApi();
 function App() {
   // setToken is how you change the variable
   // useState how we handle variables in react
-  
+
 
   // dispatch is a gun - shoots at the DataLayer, update it with values and things like that
   // Can pull anything from the DataLayer
@@ -34,9 +34,9 @@ function App() {
         type: "SET_TOKEN",
         token: _token,
       });
-      
 
-      
+
+
 
       spotify.setAccessToken(_token);
       // gets the users account
@@ -68,21 +68,21 @@ function App() {
       );
     }
 
-    
+
   }, []);
 
-  
+
 
 
   return (
     <div className="app">
-      
-         {/* if there is a token it will render the player for the user and if there isn't it will take the user back to the login page */}
-        {token ?  <Player spotify={spotify} /> : <Login /> }
-        
-      
-        {/*  passing spotify object through player as a prop */}
-       
+
+      {/* if there is a token it will render the player for the user and if there isn't it will take the user back to the login page */}
+      {token ? <Player spotify={spotify} /> : <Login />}
+
+
+      {/*  passing spotify object through player as a prop */}
+
     </div>
   );
 }

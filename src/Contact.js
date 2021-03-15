@@ -76,7 +76,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div className='wrapper'>
+            <div className='wrapper' id="contact">
                 <div className='form-wrapper'>
                     <h2>Contact Form</h2>
                     <form onSubmit={this.handleSubmit}>
