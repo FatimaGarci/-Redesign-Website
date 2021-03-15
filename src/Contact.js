@@ -76,6 +76,7 @@ class Contact extends React.Component {
 
     render() {
         return (
+            <>
             <div className='wrapper' id="contact">
                 <div className='form-wrapper'>
                     <h2>Contact Form</h2>
@@ -125,6 +126,8 @@ class Contact extends React.Component {
                     </form>
                 </div>
             </div>
+            <a id="btn-Top" href="">^ ^  Login Page</a>
+            </>
         );
     }
 }
