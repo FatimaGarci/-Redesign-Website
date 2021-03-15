@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /* // This displays the logo with grid and centers it  */
 .login {
     display: grid;
@@ -7,7 +9,8 @@
 }
 /* css for the img in login the width of 100% allows it to be responsive */
 .login > img {
-    width: 100%;
+    width: 85%;
+    margin-top: 40px;
     
 }
 /* this is the css for the a tag in the login button*/
@@ -19,3 +22,51 @@
     color:black;
     text-decoration: none;
 }
+
+/* Footer */
+#footer {
+    padding-top: 5rem;
+    padding-left: 60px;
+    color: #ffffff;
+    font-family: 'Caveat';
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+  }
+  
+  .footer-text .social-media-links{
+    color: #ffffff;
+    padding-top: 1rem;
+    font-size: 3rem;
+    width: 20%;
+  }
+  
+  .footer-text .footer-links a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  }
+
+  .footer-text a{
+      text-decoration: none;
+      margin-top: 10px;
+      color: white;
+  }
+  
+  /* Social Media Links */
+  
+  .fa {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+  }
+  
+  .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
+    color: #fffefe;
+  }
+  
